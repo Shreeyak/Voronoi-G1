@@ -4,4 +4,4 @@ python main.py --dump_state --no_gui --player1 8 --player2 d --player3 9  --last
 echo "Rendering frames..."
 python render_game.py
 echo "Creating video..."
-convert -delay 5 -loop 0 $(ls -1 render/*.png | sort -V) -quality 95 game.mp4
+convert -delay 5 -loop 0 $(ls -1 render/*.png | sort -V) -quality 99 game.mp4
